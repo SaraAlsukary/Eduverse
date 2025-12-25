@@ -54,7 +54,12 @@ const Navbar = () => {
                     <li className={`duration-100 transition-colors ease-in hover:text-purple-700 ${pathname === '/home' ? "text-purple-700" : ""}`}><Link to={'/home'}>Home</Link></li>
                     <li className={`duration-100 transition-colors ease-in hover:text-purple-700 ${pathname === '/home/courses' ? "text-purple-700" : ""}`}><Link to={'courses'}>Courses</Link></li>
                     <li className={`duration-100 transition-colors ease-in hover:text-purple-700 ${pathname === '/home/cart' ? "text-purple-700" : ""}`}><Link to={'cart'}>Cart</Link></li>
-                    <li><button className="bg-linear-to-r from-blue-700 to-purple-700 text-white py-1 px-4 rounded-sm cursor-pointer" onClick={() => navigate('/')}>Login</button></li>
+                    <li>
+                        {isLoggedIn ?
+                            <SecondaryButton onClick={logoutHandler} style={{ borderRadius: "4px", padding: "4px 12px" }}>Logout</SecondaryButton>
+                            : <Button style={{ borderRadius: "4px", padding: "4px 12px" }} onClick={() => navigate('/')}>Login</Button>
+                        }
+                    </li>
                 </ul>
             </div>
         </header>
