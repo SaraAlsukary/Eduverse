@@ -8,6 +8,7 @@ const Layout = lazy(() => import("../Layouts/Layout"));
 const Courses = lazy(() => import("../pages/Courses"));
 const CourseDetails = lazy(() => import("../pages/CourseDetails"));
 const Cart = lazy(() => import("../pages/Cart"));
+const NotFound = lazy(() => import("../pages/NotFound"));
 
 
 const AppRouter = () => {
@@ -28,6 +29,7 @@ const AppRouter = () => {
                 },
             ]
         },
+        { path: "*", element: <NotFound /> },
     ])
     return (
         <SuspensePage>
