@@ -1,0 +1,362 @@
+[
+    {
+        "id": 1,
+        "title": "HTML & CSS Fundamentals",
+        "shortDescription": "Learn the basics of building modern websites.",
+        "fullDescription": "This course teaches you how to build responsive and well-structured web pages using HTML and CSS from scratch.",
+        "lessonsCount": 24,
+        "level": "Beginner",
+        "price": 49,
+        "category": "Frontend",
+        "duration": "4 Weeks",
+        "days": [
+            "Sun",
+            "Tue"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Ahmed Ali",
+        "language": "English"
+    },
+    {
+        "id": 2,
+        "title": "JavaScript Essentials",
+        "shortDescription": "Master the fundamentals of JavaScript.",
+        "fullDescription": "You will learn variables, functions, loops, DOM manipulation, and basic ES6 concepts with hands-on practice.",
+        "lessonsCount": 28,
+        "level": "Beginner",
+        "price": 59,
+        "category": "Frontend",
+        "duration": "5 Weeks",
+        "days": [
+            "Mon",
+            "Wed"
+        ],
+        "time": "19:00 - 21:00",
+        "instructor": "Sara Hassan",
+        "language": "English"
+    },
+    {
+        "id": 3,
+        "title": "Advanced JavaScript",
+        "shortDescription": "Deep dive into advanced JavaScript concepts.",
+        "fullDescription": "Covers closures, async/await, promises, performance optimization, and advanced DOM techniques.",
+        "lessonsCount": 32,
+        "level": "Advanced",
+        "price": 89,
+        "category": "Frontend",
+        "duration": "6 Weeks",
+        "days": [
+            "Tue",
+            "Thu"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Omar Khaled",
+        "language": "English"
+    },
+    {
+        "id": 4,
+        "title": "React for Beginners",
+        "shortDescription": "Build interactive user interfaces with React.",
+        "fullDescription": "Learn React fundamentals including components, props, state, hooks, and basic routing.",
+        "lessonsCount": 30,
+        "level": "Beginner",
+        "price": 79,
+        "category": "Frontend",
+        "duration": "6 Weeks",
+        "days": [
+            "Sun",
+            "Wed"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Lina Omar",
+        "language": "English"
+    },
+    {
+        "id": 5,
+        "title": "React Advanced Patterns",
+        "shortDescription": "Level up your React skills.",
+        "fullDescription": "Learn advanced patterns, performance optimization, custom hooks, and scalable architecture.",
+        "lessonsCount": 34,
+        "level": "Advanced",
+        "price": 99,
+        "category": "Frontend",
+        "duration": "7 Weeks",
+        "days": [
+            "Mon",
+            "Thu"
+        ],
+        "time": "19:00 - 21:00",
+        "instructor": "Yousef Khaled",
+        "language": "English"
+    },
+    {
+        "id": 6,
+        "title": "UI/UX Design Basics",
+        "shortDescription": "Understand UI and UX principles.",
+        "fullDescription": "Covers design principles, user research, wireframing, prototyping, and usability testing using Figma.",
+        "lessonsCount": 22,
+        "level": "Beginner",
+        "price": 55,
+        "category": "UI/UX",
+        "duration": "5 Weeks",
+        "days": [
+            "Tue",
+            "Sat"
+        ],
+        "time": "17:00 - 19:00",
+        "instructor": "Maya Adel",
+        "language": "English"
+    },
+    {
+        "id": 7,
+        "title": "Advanced UI/UX Design",
+        "shortDescription": "Design professional user experiences.",
+        "fullDescription": "Advanced UI/UX strategies, design systems, accessibility, and real-world case studies.",
+        "lessonsCount": 26,
+        "level": "Advanced",
+        "price": 95,
+        "category": "UI/UX",
+        "duration": "6 Weeks",
+        "days": [
+            "Mon",
+            "Wed"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Nour Sami",
+        "language": "English"
+    },
+    {
+        "id": 8,
+        "title": "PHP for Web Development",
+        "shortDescription": "Learn backend development using PHP.",
+        "fullDescription": "Introduction to PHP, server-side logic, form handling, and database connections.",
+        "lessonsCount": 25,
+        "level": "Beginner",
+        "price": 65,
+        "category": "Backend",
+        "duration": "5 Weeks",
+        "days": [
+            "Sun",
+            "Thu"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Hassan Mahmoud",
+        "language": "English"
+    },
+    {
+        "id": 9,
+        "title": "Laravel Backend Development",
+        "shortDescription": "Build secure backend systems with Laravel.",
+        "fullDescription": "Learn MVC, routing, authentication, REST APIs, and database management using Laravel.",
+        "lessonsCount": 35,
+        "level": "Intermediate",
+        "price": 99,
+        "category": "Backend",
+        "duration": "8 Weeks",
+        "days": [
+            "Tue",
+            "Thu"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Mohammed Salah",
+        "language": "English"
+    },
+    {
+        "id": 10,
+        "title": "Node.js Fundamentals",
+        "shortDescription": "Backend development with Node.js.",
+        "fullDescription": "Learn Node.js basics, Express.js, REST APIs, and asynchronous programming.",
+        "lessonsCount": 28,
+        "level": "Intermediate",
+        "price": 85,
+        "category": "Backend",
+        "duration": "6 Weeks",
+        "days": [
+            "Mon",
+            "Wed"
+        ],
+        "time": "19:00 - 21:00",
+        "instructor": "Ali Hussein",
+        "language": "English"
+    },
+    {
+        "id": 11,
+        "title": "Database Design & SQL",
+        "shortDescription": "Learn relational databases and SQL.",
+        "fullDescription": "Covers database design, normalization, SQL queries, joins, and indexing.",
+        "lessonsCount": 20,
+        "level": "Beginner",
+        "price": 59,
+        "category": "Backend",
+        "duration": "4 Weeks",
+        "days": [
+            "Sun",
+            "Tue"
+        ],
+        "time": "17:00 - 19:00",
+        "instructor": "Rami Zaid",
+        "language": "English"
+    },
+    {
+        "id": 12,
+        "title": "API Development with REST",
+        "shortDescription": "Design and build RESTful APIs.",
+        "fullDescription": "Learn API principles, authentication, versioning, and best practices.",
+        "lessonsCount": 24,
+        "level": "Intermediate",
+        "price": 75,
+        "category": "Backend",
+        "duration": "5 Weeks",
+        "days": [
+            "Wed",
+            "Sat"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Fadi Nasser",
+        "language": "English"
+    },
+    {
+        "id": 13,
+        "title": "Git & GitHub",
+        "shortDescription": "Version control for developers.",
+        "fullDescription": "Learn Git basics, branching, merging, pull requests, and collaboration workflows.",
+        "lessonsCount": 18,
+        "level": "Beginner",
+        "price": 39,
+        "category": "Tools",
+        "duration": "3 Weeks",
+        "days": [
+            "Mon",
+            "Thu"
+        ],
+        "time": "18:00 - 19:30",
+        "instructor": "Khaled Amin",
+        "language": "English"
+    },
+    {
+        "id": 14,
+        "title": "DevOps Fundamentals",
+        "shortDescription": "Introduction to DevOps concepts.",
+        "fullDescription": "Learn CI/CD, Docker basics, cloud deployment, and automation tools.",
+        "lessonsCount": 26,
+        "level": "Intermediate",
+        "price": 95,
+        "category": "DevOps",
+        "duration": "6 Weeks",
+        "days": [
+            "Tue",
+            "Sat"
+        ],
+        "time": "19:00 - 21:00",
+        "instructor": "Sami Noor",
+        "language": "English"
+    },
+    {
+        "id": 15,
+        "title": "Cybersecurity Basics",
+        "shortDescription": "Understand security fundamentals.",
+        "fullDescription": "Covers web security basics, common vulnerabilities, and protection techniques.",
+        "lessonsCount": 22,
+        "level": "Beginner",
+        "price": 69,
+        "category": "Security",
+        "duration": "5 Weeks",
+        "days": [
+            "Sun",
+            "Wed"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Tarek Hamdi",
+        "language": "English"
+    },
+    {
+        "id": 16,
+        "title": "Advanced Cybersecurity",
+        "shortDescription": "Defensive and offensive security techniques.",
+        "fullDescription": "Learn penetration testing basics, secure coding, and threat analysis.",
+        "lessonsCount": 30,
+        "level": "Advanced",
+        "price": 119,
+        "category": "Security",
+        "duration": "7 Weeks",
+        "days": [
+            "Mon",
+            "Thu"
+        ],
+        "time": "19:00 - 21:00",
+        "instructor": "Hisham Adel",
+        "language": "English"
+    },
+    {
+        "id": 17,
+        "title": "Mobile App Development with Flutter",
+        "shortDescription": "Build cross-platform mobile apps.",
+        "fullDescription": "Learn Flutter basics, widgets, state management, and app deployment.",
+        "lessonsCount": 34,
+        "level": "Intermediate",
+        "price": 99,
+        "category": "Mobile",
+        "duration": "8 Weeks",
+        "days": [
+            "Tue",
+            "Fri"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Reem Salim",
+        "language": "English"
+    },
+    {
+        "id": 18,
+        "title": "Android Development with Kotlin",
+        "shortDescription": "Native Android app development.",
+        "fullDescription": "Learn Kotlin, Android components, UI design, and app lifecycle.",
+        "lessonsCount": 36,
+        "level": "Intermediate",
+        "price": 109,
+        "category": "Mobile",
+        "duration": "8 Weeks",
+        "days": [
+            "Mon",
+            "Wed"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Mahmoud Yassin",
+        "language": "English"
+    },
+    {
+        "id": 19,
+        "title": "Data Analysis with Python",
+        "shortDescription": "Analyze data using Python.",
+        "fullDescription": "Learn NumPy, Pandas, data visualization, and basic data analysis workflows.",
+        "lessonsCount": 28,
+        "level": "Intermediate",
+        "price": 95,
+        "category": "Data",
+        "duration": "6 Weeks",
+        "days": [
+            "Sun",
+            "Thu"
+        ],
+        "time": "19:00 - 21:00",
+        "instructor": "Nada Ibrahim",
+        "language": "English"
+    },
+    {
+        "id": 20,
+        "title": "Machine Learning Fundamentals",
+        "shortDescription": "Introduction to machine learning concepts.",
+        "fullDescription": "Covers supervised learning, basic algorithms, model evaluation, and real-world examples.",
+        "lessonsCount": 32,
+        "level": "Advanced",
+        "price": 129,
+        "category": "AI",
+        "duration": "8 Weeks",
+        "days": [
+            "Tue",
+            "Sat"
+        ],
+        "time": "18:00 - 20:00",
+        "instructor": "Dr. Adam Lewis",
+        "language": "English"
+    }
+]
