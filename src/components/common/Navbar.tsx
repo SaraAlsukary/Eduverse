@@ -43,14 +43,23 @@ const Navbar = () => {
                 </ul>
 
                 {/* mobile */}
-                <div className="block lg:hidden md:hidden cursor-pointer " onClick={() => setShow(prev => !prev)}>
+                <div className="block lg:hidden md:hidden cursor-pointer" onClick={() => setShow(prev => !prev)}>
                     {show ?
                         <FaWindowClose size={25} color="rgb(129 0 219)" /> :
                         <GiHamburgerMenu size={25} color="rgb(22 71 230)" />
                     }
                 </div>
-                <ul className={`${show ? "-translate-y-15 opacity-100" : "-translate-y-90 opacity-0"} border-b border-t shadow-md border-purple-700 transition-all ease-in-out duration-500 flex flex-col md:hidden lg:hidden items-center justify-center gap-12  font-medium text-md 
-               absolute left-[50%] z-10 text-center top-30 bg-white w-full translate-x-[-50%]  py-4`}>
+                <ul
+                    className={`${show ? "opacity-100 -translate-y-4 pointer-events-auto" : "opacity-0 -translate-y-20 pointer-events-none"}
+                                border-b border-t shadow-md border-purple-700
+                                transition-all duration-500
+                                flex flex-col md:hidden lg:hidden
+                                items-center justify-center gap-12
+                                font-medium text-md
+                                absolute left-1/2 top-20
+                                z-10 bg-white w-full -translate-x-1/2 py-4
+                            `}
+                >
                     <li className={`duration-100 transition-colors ease-in hover:text-purple-700 ${pathname === '/home' ? "text-purple-700" : ""}`}><Link to={'/home'}>Home</Link></li>
                     <li className={`duration-100 transition-colors ease-in hover:text-purple-700 ${pathname === '/home/courses' ? "text-purple-700" : ""}`}><Link to={'courses'}>Courses</Link></li>
                     <li className={`duration-100 transition-colors ease-in hover:text-purple-700 ${pathname === '/home/cart' ? "text-purple-700" : ""}`}><Link to={'cart'}>Cart</Link></li>
