@@ -17,7 +17,7 @@ const Loading = () => {
                 />
             </svg>
 
-            <p className="font-semibold bg-linear-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">
+            <p className="font-bold bg-linear-to-r from-blue-700 to-purple-700 bg-clip-text text-transparent">
                 Loading...
             </p>
         </div>
