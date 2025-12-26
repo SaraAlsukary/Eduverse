@@ -10,26 +10,33 @@ import ReturnButton from "../components/ui/ReturnButton";
 import NotFound from "./NotFound";
 import { toast } from "react-toastify";
 import type { ICart } from "../types/cart";
+import Loading from "../components/ui/Loading";
 
 const CourseDetails = () => {
   const { id } = useParams();
   const cart = JSON.parse(localStorage.getItem('cart')!) || []
   const user = JSON.parse(localStorage.getItem('user')!)
   const [course, setCourse] = useState<ICourse | null>(null);
+  const [loading, setLoading] = useState<boolean>(false)
+
   const index = Number(id);
   useEffect(() => {
     const fetchData = async () => {
       try {
+        setLoading(true)
         const res = await fetch("/data.json");
         const data = await res.json();
         const found = data.find((c: ICourse) => c.id === index);
         if (found) setCourse(found);
+        setLoading(false)
       } catch (error) {
         console.log(error);
       }
     };
     fetchData();
   }, [index]);
+
+  if (loading) return <Loading />
 
   const addToCartHandler = () => {
     if (!user?.isLoggedIn) {

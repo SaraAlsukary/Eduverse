@@ -3,20 +3,26 @@ import ReactPaginate from 'react-paginate';
 import CourseCard from "./CourseCard"
 import type { ICourse } from "../../types/course"
 import { toast } from "react-toastify";
+import Loading from "../ui/Loading";
 const CoursesList = ({ totalCourseHandler }: { totalCourseHandler: (total: number) => void }) => {
     const [courses, setCourses] = useState<ICourse[] | null>(null)
+    const [loading, setLoading] = useState<boolean>(false)
     useEffect(() => {
         const fetchData = async () => {
             try {
+                setLoading(true)
                 const res = await fetch('/data.json')
                 const data = await res.json()
                 setCourses(data)
+                setLoading(false)
             } catch (error) {
                 console.log(error)
             }
         }
         fetchData()
     }, [])
+
+    if (loading) return <Loading />
 
     return (
         <PaginatedItems totalCourseHandler={totalCourseHandler} itemsPerPage={6} items={courses!} />
